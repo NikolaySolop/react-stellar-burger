@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: center;
+
+    /*gap: 288px;*/
+    padding: 16px 0;
+
+    border: red solid 1px;
+}
+
+.nav {
+    display: flex;
+    gap: 8px;
+    margin-right: 112px;
+}
+
+.link {
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin: 0;
+    padding: 16px 20px;
+    text-decoration: none;
+    border: red 1px solid;
+    border-radius: 40px;
+    gap: 8px;
+}
+
+.profile {
+    composes: link;
+    margin-left: 228px;
+}
+
