@@ -4,7 +4,7 @@ import {Tab} from "@ya.praktikum/react-developer-burger-ui-components";
 import {IngredientCard} from "./card/card";
 
 
-export function BurgerIngredients({data}) {
+export const BurgerIngredients = ({data}) => {
     const [current, setCurrent] = React.useState('one');
 
     const getRandomInt = () => Math.floor(Math.random() * 2);

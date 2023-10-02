@@ -7,13 +7,13 @@ import {data} from "../../utils/data";
 
 function App() {
     return (
-        <body className={styles.app}>
-        <AppHeader/>
-        <main className={styles.main}>
-            <BurgerIngredients data={data}/>
-            <BurgerConstructor data={data}/>
-        </main>
-        </body>
+        <div className={styles.app}>
+            <AppHeader/>
+            <main className={styles.main}>
+                <BurgerIngredients data={data}/>
+                <BurgerConstructor data={data}/>
+            </main>
+        </div>
     );
 }
 

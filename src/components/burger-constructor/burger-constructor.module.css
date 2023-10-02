@@ -7,9 +7,9 @@
     padding: 0 16px;
 
     list-style: none;
-    /*margin: 0;*/
 
-    border: 1px solid white;
+    max-height: 750px;
+    overflow-y: scroll;
 }
 
 .order {
@@ -17,6 +17,4 @@
     flex-direction: row;
     align-items: center;
     justify-content: end;
-
-    border: 1px solid white;
 }

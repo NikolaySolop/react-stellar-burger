@@ -3,9 +3,7 @@
     max-width: 1920px;
     flex-direction: column;
     margin: auto;
-    /*height: 100vh;*/
-    /*background-color: #131316;*/
-    /*color: #f2f2f3;*/
+    height: 100vh;
 }
 
 .main {
@@ -13,5 +11,4 @@
     grid-template-columns: repeat(2, 600px);
     justify-content: center;
     gap: 40px;
-    border: green solid 1px;
 }
