@@ -27,7 +27,7 @@ export const BurgerIngredients = ({data}) => {
     return (
         <section>
             <h1 className="text text_type_main-large mt-10 mb-5">Соберите бургер</h1>
-            <div style={{display: 'flex'}} className="mt-5 mb-10">
+            <div className={`${styles.tab} mt-5 mb-10`}>
                 <Tab value="one" active={current === 'one'} onClick={setCurrent}>
                     Булки
                 </Tab>

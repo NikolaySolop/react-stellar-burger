@@ -19,3 +19,7 @@
     max-height: 750px;
     overflow-y: scroll;
 }
+
+.tab {
+    display: flex;
+}

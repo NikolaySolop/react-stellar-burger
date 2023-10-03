@@ -7,7 +7,7 @@ import {Counter, CurrencyIcon} from "@ya.praktikum/react-developer-burger-ui-com
 export const IngredientCard = ({counter, imageSource, price, name}) => (
     <>
         {counter > 0 && <Counter count={counter} size="default"/>}
-        <img className="pl-4 pr-4" src={imageSource}/>
+        <img className="pl-4 pr-4" src={imageSource} alt={name}/>
         <div className={styles.price}>
             <p className="text text_type_digits-default">{price}</p>
             <CurrencyIcon type="primary" />

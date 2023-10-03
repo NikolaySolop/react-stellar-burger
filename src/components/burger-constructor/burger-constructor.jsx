@@ -16,9 +16,11 @@ export const BurgerConstructor = ({data}) => {
                 const position = isFirst ? "first" : isLast ? "last" : "none";
                 const name = isFirst ? `${data[index].name} (вверх)` : isLast ? `${data[index].name} (низ)` : data[index].name;
 
+                const key = `${index}_${arrayIndex}`;
+
                 return (
                     <ItemConstructor
-                        key={index}
+                        key={key}
                         position={position}
                         name={name}
                         price={data[index].price}
